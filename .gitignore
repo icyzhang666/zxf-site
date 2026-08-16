@@ -1,0 +1,7 @@
+# 上传辅助脚本与网盘响应文件（不属于站点交付物）
+put_file.py
+resp_*.json
+
+# 本地临时预览日志
+*.log
+.DS_Store
