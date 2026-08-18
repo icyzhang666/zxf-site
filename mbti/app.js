@@ -23,6 +23,7 @@
       '<p class="lead">20 道题，测出你的股权人格：诊断起点、风险取向、交付方式、服务重心——四个维度，拼出只属于你的专业类型。</p>' +
       '<div class="mbti-points"><span>🕹 约 2 分钟</span><span>🧭 四轴十六型</span><span>📊 看看同行都在哪</span></div>' +
       '<p><a class="btn" href="javascript:void(0)" id="startBtn">开始测试 →</a></p>' +
+      '<p><a class="btn btn--ghost" href="./types.html">先看看 16 类图鉴 →</a></p>' +
       '<p class="mbti-foot-note">本测试仅供娱乐与自我觉察，不构成任何投资或法律意见。</p>';
     app.appendChild(h);
     h.querySelector('#startBtn').addEventListener('click', function(){ step=0; renderQuestion(); });
