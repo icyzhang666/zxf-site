@@ -238,18 +238,22 @@ a:hover { color: var(--blue-hover); }
 .section--tight { padding: 72px 22px; }
 .section__kicker {
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-size: 13px;
   font-weight: 600;
   color: var(--ink-soft);
-  margin: 0 0 14px;
+  margin: 0 0 16px;
+  word-break: keep-all;
+  overflow-wrap: normal;
 }
 .section__title {
-  font-size: clamp(30px, 4.4vw, 48px);
-  line-height: 1.08;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 1.1;
   margin: 0 0 22px;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  word-break: keep-all;
 }
 .section__lead {
   font-size: 19px;
@@ -262,26 +266,35 @@ a:hover { color: var(--blue-hover); }
 
 /* ---------- Hero（苹果式居中大标题） ---------- */
 .hero {
-  padding: 104px 22px 80px;
-  max-width: 900px;
+  padding: 96px 22px 72px;
+  max-width: 880px;
   margin: 0 auto;
   text-align: center;
 }
 .hero h1 {
-  font-size: clamp(40px, 6.4vw, 72px);
-  line-height: 1.06;
+  font-size: clamp(24px, 5vw, 52px);
+  line-height: 1.14;
   margin: 0 0 22px;
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  max-width: 14em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero h1 .gold { color: var(--blue); }
-.hero > p {
-  font-size: 21px;
-  line-height: 1.5;
+.hero > p:not(.section__kicker) {
+  font-size: clamp(16px, 1.9vw, 19px);
+  line-height: 1.6;
   color: var(--ink-soft);
-  max-width: 640px;
-  margin: 0 auto 16px;
-  letter-spacing: -0.01em;
+  max-width: 620px;
+  margin: 0 auto 18px;
+  letter-spacing: 0;
+  text-wrap: pretty;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 .hero__tags {
   display: flex;
