@@ -95,8 +95,9 @@
     });
   });
 
-  // 点击任意导航链接收起移动端菜单（含锚点 / 子项）
-  nav.querySelectorAll(".siteNav__links a").forEach(function (a) {
+  // 点击会真实跳转的链接后收起移动端菜单：顶层项 + 二级子项
+  // 注意：不选 has-sub 的父级，否则点「观点」展开子菜单的逻辑会被关掉
+  nav.querySelectorAll(".siteNav__links > a, .siteNav__sub a").forEach(function (a) {
     a.addEventListener("click", function () {
       if (window.innerWidth <= 760) setOpen(false);
     });
