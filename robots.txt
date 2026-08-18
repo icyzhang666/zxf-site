@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zhangxiaofen.pro/sitemap.xml
+Sitemap: https://xiaofen.pro/sitemap.xml
