@@ -12,6 +12,7 @@
     { t: "专长服务", href: base + "services.html" },
     { t: "方法论", href: base + "methodology.html" },
     { t: "推荐书目", href: base + "books.html" },
+    { t: "股权人格测试", href: base + "mbti/index.html" },
     {
       t: "案例观点",
       sub: [
