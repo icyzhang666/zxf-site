@@ -8,13 +8,16 @@
 
   var links = [
     { t: "首页", href: base + "index.html" },
-    { t: "关于", href: base + "about.html" },
+    { t: "我是谁", href: base + "about.html" },
     { t: "专长服务", href: base + "services.html" },
+    { t: "方法论", href: base + "methodology.html" },
+    { t: "推荐书目", href: base + "books.html" },
     {
       t: "案例观点",
       sub: [
         { t: "观点文章", href: base + "blog/index.html" },
-        { t: "FAQ 问答", href: base + "faq/index.html" }
+        { t: "FAQ 问答", href: base + "faq/index.html" },
+        { t: "百家招股书解读", href: base + "prospectus/index.html" }
       ]
     },
     { t: "联系", href: base + "index.html#contact" }
